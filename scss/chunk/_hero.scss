@@ -1,0 +1,28 @@
+@use '../vars' as *;
+
+.hero-btn {
+  padding: 30px 40px;
+  background: $accent-color;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: $font-main;
+  color: $text-main-color;
+  border-radius: 2px;
+  box-shadow: 0 8px 0px $bg-second-color;
+  display: inline-block;
+  transition: all .2s;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+
+  &:hover {
+    letter-spacing: 1px;
+    padding: 30px 27px;
+  }
+
+  &:active {
+    top: 3px;
+    box-shadow: 0 5px 0px $bg-second-color;
+    transition: all .2s;
+  }
+}
