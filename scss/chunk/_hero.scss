@@ -26,3 +26,27 @@
     transition: all .2s;
   }
 }
+
+.hero-btn--bgcol-black {
+  background-color: black;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  transition: background-color 0.3s ease;
+}
+
+.block.red {
+  background-color: #db5454;
+}
+
+.block.blue {
+  background-color: #548fdb;
+}
+
+.block.green {
+  background-color: #54db66;
+}
