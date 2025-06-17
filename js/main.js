@@ -1,7 +1,11 @@
 const btn = document.querySelector('.hero-btn');
 
-if (btn.textContent == 'Скрыть') {
-  btn.textContent = 'Показать все';
+if (btn.textContent.trim() == 'Скрыть') {
+  btn.addEventListener('click', function () {
+    btn.textContent = 'Показать все';
+  })
 } else {
-  btn.textContent = 'Да';
+  btn.addEventListener('click', function () {
+    btn.textContent = 'Да';
+  })
 }
